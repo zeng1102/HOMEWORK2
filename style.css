@@ -1,0 +1,63 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap');
+body {
+    margin-top: 0px;
+	font-family: 'Noto Serif TC', serif;
+}
+.container {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header h1 {
+    text-align: center;
+	font-size: 28px;
+    color: #B91F04;
+    margin-bottom: -6px;
+}
+nav {
+    text-align: center;
+    height: 60px;
+    padding-top: 1px;
+    margin-top: 0px;
+}
+nav a {
+    text-decoration: none;
+    color: #343434;
+    font-size: 16px;
+}
+nav a:hover {
+    color: #D3410A;
+    font-weight: bolder;
+
+}
+.heroimg {
+    height: 300px;
+    background-image: url(assets/hero.jpg);
+    background-position: center center;
+    border-radius: 42px;
+}
+article {
+    min-height: 100px;
+}
+article h3 {
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: #ff5c5c;
+}
+article p {
+    text-align: justify;
+    padding-left: 12px;
+    padding-right: 18px;
+    font-size: 15px;
+}
+article ul {
+    text-align: justify;
+    font-size: 15px;
+}
+.imgdiv {
+    text-align: center;
+}
